@@ -7,6 +7,7 @@ name = "pypi"
 scikit-learn = "==1.2.2"
 pandas = "*"
 pyarrow = "*"
+click = "*"
 
 [dev-packages]
 jupyter = "*"
