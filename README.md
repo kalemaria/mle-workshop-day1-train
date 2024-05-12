@@ -2,6 +2,9 @@
 
 This project focuses on converting a Jupyter notebook into a training pipeline to predict taxi trip durations. It utilizes the NYC TLC Trip Record Data to model and forecast travel times in New York City.
 
+This project was done during the Machine Learning Engineering Course (Day 1) at Constructor Academy's Data Science Bootcamp.
+This is the original repository of the workshop: https://github.com/alexeygrigorev/ml-engineering-contsructor-workshop/
+
 ## Installation instructions
 
 Pre-requisites:
