@@ -38,7 +38,7 @@ TRAIN="2022-01"
 VAL="2022-02"
 
 pipenv run python \
-    -m duration_prediction.train \
+    -m duration_prediction.main \
     --train-month="${TRAIN}" \
     --validation-month="${VAL}" \
     --model-output-path="./models/model-${TRAIN}.bin"
