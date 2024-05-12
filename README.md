@@ -44,7 +44,13 @@ pipenv run python \
     --model-output-path="./models/model-${TRAIN}.bin"
 ```
 
-Running tests:
+Run only one test:
+
+```bash
+pipenv run python -m unittest tests.test_train
+```
+
+Running all tests in `tests/`
 
 ```bash
 pipenv run python -m unittest discover -s tests
